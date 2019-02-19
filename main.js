@@ -9,17 +9,18 @@ window.onload = (function (){
     if(!(box || audio)){return;}
     
     box.classList.add('playing');
+    audio.currentTime = 0;
     audio.play();
   }
 
   function keyRelease(evt){
     let box = document.querySelector(`.box[data-key="${evt.keyCode}"]`);
-    let audio = document.querySelector(`audio[data-key="${evt.keyCode}"]`);
-    if(box && audio){
-      box.classList.remove('playing');
-      audio.pause();
-      audio.currentTime = 0;
+    if(!box){
+      return;
     }
+    
+    box.classList.remove('playing');
+
   }
 
   
