@@ -37,6 +37,7 @@ body{
   border: 3px solid black;
   border-radius: .5rem;
   cursor: pointer;
+  margin-bottom: .5rem;
 }
 
 .box:not(:first-child){
