@@ -1,3 +1,3 @@
 # drumkit
 
-You can view a demo of the site at (https://raulcontrerasrubio.github.io/drumkit/)[this link]
+You can view a demo of the site at [this link](https://raulcontrerasrubio.github.io/drumkit/)
